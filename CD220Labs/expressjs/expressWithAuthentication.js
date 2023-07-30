@@ -94,4 +94,4 @@ app.get("/auth/get_message", (req,res) => {
 
 const PORT =5000;
 
-app.listen(PORT,()=>console.log("Server is running"));
+app.listen(PORT,()=>console.log("Server is running at port:5000"));
